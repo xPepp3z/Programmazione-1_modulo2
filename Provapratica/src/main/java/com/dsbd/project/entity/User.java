@@ -11,7 +11,7 @@ import java.util.List;
 @Entity
 public class User {
 
-    @Id
+    @Id //genera l'ID
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 

@@ -1,4 +1,4 @@
-package com.dsbd.project;
+package com.dsbd.project.service;
 
 import com.dsbd.project.entity.User;
 import com.dsbd.project.entity.UserRepository;
@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-@Transactional
+@Transactional      //gestisce il login degli utenti
 public class ProjectUserDetailsService implements UserDetailsService {
     @Autowired
     UserRepository repository;

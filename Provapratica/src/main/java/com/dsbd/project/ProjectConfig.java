@@ -1,6 +1,7 @@
 package com.dsbd.project;
 
 import com.dsbd.project.security.AuthTokenFilter;
+import com.dsbd.project.service.ProjectUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

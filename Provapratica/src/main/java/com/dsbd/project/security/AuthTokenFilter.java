@@ -1,6 +1,6 @@
 package com.dsbd.project.security;
 
-import com.dsbd.project.ProjectUserDetailsService;
+import com.dsbd.project.service.ProjectUserDetailsService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
